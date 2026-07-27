@@ -1,34 +1,41 @@
 # Professor Feld's Earth Science Adventures
 
-This is the starter homepage for a GitHub Pages website.
+This repository contains the Professor Feld website for Earth science,
+EarthCaching, free coloring pages, field guides, and experiments.
 
-## Files
+## Current structure
 
-- `index.html` — homepage content
-- `styles.css` — layout and visual styling
-- `professor-feld.jpg` — homepage artwork
+```text
+index.html
+downloads.html
 
-## Publish with GitHub Pages
+css/
+  styles.css
 
-1. Create a new public repository on GitHub.
-2. Upload these files into the repository's top level.
-3. Open the repository's **Settings**.
-4. Select **Pages** under **Code and automation**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the `main` branch and the `/ (root)` folder.
-7. Save and wait for GitHub to publish the site.
+images/
+  brand/
+    professor-feld.jpg
+  downloads/
+    preview images
 
-## Edit the homepage
+downloads/
+  coloring-pages/
+    printable PDFs and PNGs
+  field-guides/
+  experiments/
 
-Open `index.html` on GitHub and select the pencil icon. Replace any text,
-links, or "Coming soon" labels you want to change, then commit the changes.
+js/
+```
 
+## GitHub Pages
 
-## Free downloads section
+Publish from the `main` branch and the `/ (root)` folder.
 
-- `downloads.html` contains the download library.
-- `downloads/` contains the printable PDF and full-resolution PNG files.
-- `images/downloads/` contains smaller preview images used on the website.
+## Adding another coloring page
 
-To add another coloring page later, upload its PDF, PNG, and preview image,
-then duplicate one of the download cards in `downloads.html` and change its text and links.
+1. Put the printable PDF and full-resolution PNG in:
+   `downloads/coloring-pages/`
+2. Put the smaller preview JPG in:
+   `images/downloads/`
+3. Duplicate an existing card in `downloads.html`.
+4. Update the title, description, preview image, PDF link, and PNG link.
