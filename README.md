@@ -39,3 +39,4 @@ Publish from the `main` branch and the `/ (root)` folder.
    `images/downloads/`
 3. Duplicate an existing card in `downloads.html`.
 4. Update the title, description, preview image, PDF link, and PNG link.
+
