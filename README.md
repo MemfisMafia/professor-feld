@@ -22,3 +22,13 @@ This is the starter homepage for a GitHub Pages website.
 
 Open `index.html` on GitHub and select the pencil icon. Replace any text,
 links, or "Coming soon" labels you want to change, then commit the changes.
+
+
+## Free downloads section
+
+- `downloads.html` contains the download library.
+- `downloads/` contains the printable PDF and full-resolution PNG files.
+- `images/downloads/` contains smaller preview images used on the website.
+
+To add another coloring page later, upload its PDF, PNG, and preview image,
+then duplicate one of the download cards in `downloads.html` and change its text and links.
